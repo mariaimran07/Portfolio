@@ -37,7 +37,7 @@
             display: inline-block;
         }
         .name-glow::before {
-            content: 'MARIA NAVEED';
+            content: 'MARIA';
             position: absolute;
             left: 0;
             top: 0;
@@ -77,7 +77,7 @@
             transition: all 0.4s ease;
         }
         .btn-glow:hover {
-            box-shadow: 0 0 30px rgba(0, 255, 170, 0.4);
+            box-shadow: 0 0 30px rgba(168, 85, 247, 0.4);
             transform: translateY(-2px);
         }
 
@@ -134,6 +134,7 @@
         <div class="max-w-6xl mx-auto bento-card rounded-full px-8 py-4 flex justify-between items-center">
             <span class="font-heavy text-lg tracking-tighter">MN<span class="text-[#00ffaa]">_</span></span>
             <div class="hidden md:flex gap-10 text-[10px] font-black uppercase tracking-widest opacity-60">
+                <a href="#experience" class="hover:text-[#00ffaa] transition">Experience</a>
                 <a href="#projects" class="hover:text-[#00ffaa] transition">Works</a>
                 <a href="#skills" class="hover:text-[#00ffaa] transition">Stack</a>
                 <a href="mailto:mariaimran787898@gmail.com" class="hover:text-[#00ffaa] transition">mariaimran787898@gmail.com</a>
@@ -149,23 +150,22 @@
         
         <!-- Prominent Name with Glow Effects -->
         <h1 class="font-heavy text-[10vw] md:text-[7vw] leading-[0.85] uppercase mb-6 tracking-tighter name-glow">
-            <span class="name-glow-outline text-transparent">MARIA</span><br>
-            <span class="text-[#00ffaa] drop-shadow-[0_0_30px_rgba(0,255,170,0.8)]">NAVEED</span>
+            <span class="name-glow-outline text-transparent">MARIA</span>
         </h1>
         
         <p class="max-w-2xl text-gray-400 text-lg md:text-xl font-light mb-8">
-            A Full-Stack Engineer specializing in high-velocity Full Stack applications and autonomous AI architectures.
+            A Full-Stack Engineer specializing in AI agents, autonomous architectures & high-velocity web applications.
         </p>
         
         <p class="max-w-3xl text-emerald-400/80 text-sm md:text-base font-medium mb-12">
-            Building digital & AI experiences that blend cutting-edge tech with elegant design.
+            Building digital experiences that blend cutting-edge tech with elegant design.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center items-center w-full">
             <a href="#projects" class="btn-glow bg-[#00ffaa] text-black px-12 py-5 rounded-2xl font-black text-xs uppercase tracking-widest w-full sm:w-auto">
                 Discover Works
             </a>
             <a href="images/CV.pdf" target="_blank" class="bento-card px-12 py-5 rounded-2xl font-black text-xs uppercase tracking-widest w-full sm:w-auto flex items-center justify-center gap-2">
-                Get Resume <i data-lucide="arrow-up-right" class="w-4 h-4 text-[#00ffaa]"></i>
+                Get Resume <i data-lucide="arrow-up-right" class="w-4 h-4 text-emerald-400"></i>
             </a>
         </div>
     </section>
@@ -192,6 +192,7 @@
                     <span class="skill-tag">PHP</span>
                     <span class="skill-tag">Next</span>
                     <span class="skill-tag">Nest</span>
+                    <span class="skill-tag">Node</span>
                     <span class="skill-tag">GraphQL</span>
                     <span class="skill-tag">Redux Toolkit</span>
                     <span class="skill-tag">React Native</span>
@@ -202,7 +203,7 @@
             <!-- Databases SQL -->
             <div class="skill-category p-8 rounded-[32px]">
                 <div class="flex items-center gap-3 mb-6">
-                    <div class="w-12 h-12 rounded-xl bg-purple-500/10 flex items-center justify-center">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-500/10 flex items-center justify-center">
                         <i data-lucide="database" class="w-6 h-6 text-purple-400"></i>
                     </div>
                     <h3 class="font-heavy text-xl uppercase">SQL DBs</h3>
@@ -391,6 +392,94 @@
         </div>
     </section>
 
+    <!-- Experience Section -->
+    <section id="experience" class="max-w-6xl mx-auto px-6 py-24">
+        <div class="text-center mb-16">
+            <h2 class="font-heavy text-5xl md:text-6xl uppercase mb-4">Experience</h2>
+            <p class="text-gray-400 text-lg">My professional journey</p>
+        </div>
+        
+        <div class="space-y-6">
+            <!-- REMAP.AI -->
+            <div class="bento-card p-8 rounded-[32px]">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4">
+                    <div>
+                        <span class="text-emerald-400 font-bold text-xs tracking-widest uppercase">CURRENT</span>
+                        <h3 class="font-heavy text-xl md:text-2xl mt-1">Full Stack Developer</h3>
+                        <p class="text-gray-400">REMAP.AI • Brisbane, Australia</p>
+                    </div>
+                    <span class="text-xs text-gray-500">Dec 2023 - Present</span>
+                </div>
+                <ul class="text-gray-400 text-sm space-y-2">
+                    <li>• Develop and maintain full-stack web applications with both front-end and back-end functionality</li>
+                    <li>• Design, implement, and optimize relational (SQL) and non-relational (NoSQL) databases</li>
+                    <li>• Build and deploy AI-powered automation agents for workflows, data processing, and decision-making</li>
+                    <li>• Integrate machine learning models and LLM-based systems (OpenAI, LangChain) into web services</li>
+                    <li>• Create and consume RESTful and GraphQL APIs, integrate with external services</li>
+                    <li>• Collaborate with cross-functional teams and follow DevOps best practices for CI/CD</li>
+                </ul>
+            </div>
+            
+            <!-- XPONEX -->
+            <div class="bento-card p-8 rounded-[32px]">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4">
+                    <div>
+                        <span class="text-purple-400 font-bold text-xs tracking-widest uppercase">PREVIOUS</span>
+                        <h3 class="font-heavy text-xl md:text-2xl mt-1">Full Stack Developer</h3>
+                        <p class="text-gray-400">XPONEX • Pakistan</p>
+                    </div>
+                    <span class="text-xs text-gray-500">Jun 2023 - Dec 2023</span>
+                </div>
+                <ul class="text-gray-400 text-sm space-y-2">
+                    <li>• Work closely with designers, product managers, and developers to deliver high-quality products</li>
+                    <li>• Participate in agile development processes (sprint planning, daily stand-ups, retrospectives)</li>
+                    <li>• Implemented custom Hooks, reusable components, optimized code with scalable approach</li>
+                    <li>• Write comprehensive unit and integration tests to uphold code quality</li>
+                    <li>• Develop efficient server-side logic and RESTful APIs using Node.js and Express.js</li>
+                    <li>• Implement secure user authentication and authorization (JWT)</li>
+                </ul>
+            </div>
+            
+            <!-- AUTOROBOS -->
+            <div class="bento-card p-8 rounded-[32px]">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4">
+                    <div>
+                        <span class="text-purple-400 font-bold text-xs tracking-widest uppercase">PREVIOUS</span>
+                        <h3 class="font-heavy text-xl md:text-2xl mt-1">MERN Stack Developer</h3>
+                        <p class="text-gray-400">AUTOROBOS • Faisalabad, Pakistan</p>
+                    </div>
+                    <span class="text-xs text-gray-500">Jul 2021 - Jun 2023</span>
+                </div>
+                <ul class="text-gray-400 text-sm space-y-2">
+                    <li>• Designing and architecting scalable full-stack web applications using MERN stack</li>
+                    <li>• Developing RESTful and GraphQL APIs with advanced query optimization</li>
+                    <li>• Implementing real-time features using GraphQL subscriptions and SSE</li>
+                    <li>• Designing and optimizing database schemas with MongoDB aggregation pipelines</li>
+                    <li>• Implementing OAuth 2.0 with JWT for secure user access control</li>
+                    <li>• Implementing serverless functions using Google Cloud Functions</li>
+                </ul>
+            </div>
+            
+            <!-- GAMICA CLOUD -->
+            <div class="bento-card p-8 rounded-[32px]">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4">
+                    <div>
+                        <span class="text-emerald-400 font-bold text-xs tracking-widest uppercase">INTERNSHIP</span>
+                        <h3 class="font-heavy text-xl md:text-2xl mt-1">MERN Stack Developer</h3>
+                        <p class="text-gray-400">GAMICA CLOUD • Faisalabad, Pakistan</p>
+                    </div>
+                    <span class="text-xs text-gray-500">Feb 2021 - Jun 2021</span>
+                </div>
+                <ul class="text-gray-400 text-sm space-y-2">
+                    <li>• Developed and maintained web applications using MERN stack</li>
+                    <li>• Implemented GraphQL for efficient data querying and manipulation</li>
+                    <li>• Collaborated with frontend and backend teams to design and implement RESTful APIs</li>
+                    <li>• Conducted code reviews and participated in Agile ceremonies</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
     <section id="projects" class="max-w-6xl mx-auto px-6 py-24">
         <div class="flex flex-col md:flex-row justify-between items-center mb-16 gap-8">
             <h2 class="font-heavy text-5xl uppercase">Showcase</h2>
@@ -411,7 +500,7 @@
                     <div class="relative overflow-hidden rounded-[32px] aspect-video">
                         <img src="images/Screenshot (52).png" alt="Tapday" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-6 flex flex-col justify-end">
-                            <span class="text-[#00ffaa] font-black text-[10px] tracking-widest uppercase mb-1">UI/UX</span>
+                            <span class="text-purple-400 font-black text-[10px] tracking-widest uppercase mb-1">UI/UX</span>
                             <h3 class="font-heavy text-xl group-hover:translate-x-2 transition-transform">Tapday</h3>
                             <p class="text-xs text-gray-400 mt-2 line-clamp-2">Event & booking platform</p>
                         </div>
@@ -424,7 +513,7 @@
                     <div class="relative overflow-hidden rounded-[32px] aspect-video">
                         <img src="images/Screenshot (48).png" alt="Five Lights Renovation" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-6 flex flex-col justify-end">
-                            <span class="text-[#00ffaa] font-black text-[10px] tracking-widest uppercase mb-1">UI/UX</span>
+                            <span class="text-purple-400 font-black text-[10px] tracking-widest uppercase mb-1">UI/UX</span>
                             <h3 class="font-heavy text-xl group-hover:translate-x-2 transition-transform">Five Lights Renovation</h3>
                             <p class="text-xs text-gray-400 mt-2 line-clamp-2">Construction & renovation services</p>
                         </div>
@@ -452,7 +541,7 @@
                     <div class="relative overflow-hidden rounded-[32px] aspect-video">
                         <img src="images/Screenshot (47).png" alt="Metabilia" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-6 flex flex-col justify-end">
-                            <span class="text-[#00ffaa] font-black text-[10px] tracking-widest uppercase mb-1">UI/UX</span>
+                            <span class="text-purple-400 font-black text-[10px] tracking-widest uppercase mb-1">UI/UX</span>
                             <h3 class="font-heavy text-xl group-hover:translate-x-2 transition-transform">Metabilia</h3>
                             <p class="text-xs text-gray-400 mt-2 line-clamp-2">Real estate platform with modern design</p>
                         </div>
@@ -493,7 +582,7 @@
                     <div class="relative overflow-hidden rounded-[32px] aspect-video">
                         <img src="images/Screenshot (49).png" alt="Novo Connection" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-6 flex flex-col justify-end">
-                            <span class="text-[#00ffaa] font-black text-[10px] tracking-widest uppercase mb-1">UI/UX</span>
+                            <span class="text-purple-400 font-black text-[10px] tracking-widest uppercase mb-1">UI/UX</span>
                             <h3 class="font-heavy text-xl group-hover:translate-x-2 transition-transform">Novo Connection</h3>
                             <p class="text-xs text-gray-400 mt-2 line-clamp-2">Business networking platform</p>
                         </div>
@@ -580,7 +669,7 @@
                     <div class="relative overflow-hidden rounded-[32px] aspect-video">
                         <img src="images/Screenshot (50).png" alt="Shoe Paradise" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-6 flex flex-col justify-end">
-                            <span class="text-[#00ffaa] font-black text-[10px] tracking-widest uppercase mb-1">UI/UX</span>
+                            <span class="text-purple-400 font-black text-[10px] tracking-widest uppercase mb-1">UI/UX</span>
                             <h3 class="font-heavy text-xl group-hover:translate-x-2 transition-transform">Shoe Paradise</h3>
                             <p class="text-xs text-gray-400 mt-2 line-clamp-2">Online shoe store</p>
                         </div>
